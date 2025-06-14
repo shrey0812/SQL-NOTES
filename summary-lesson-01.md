@@ -1,12 +1,16 @@
-# ✅ Lesson 01 – SELECT Basics
+# 🧠 Summary – Lesson 01: SELECT Basics
 
-## 📘 Concept
-Learned how to write basic `SELECT` queries to retrieve data from one or more columns in a table. Introduced the use of `SELECT *` to retrieve all columns.
+## ✅ What I Learned:
+- How to retrieve specific columns using `SELECT column FROM table`
+- Use of `SELECT *` to retrieve all columns
+- `FROM` clause defines the data source
 
-## 💡 Real-World Use Case
-Used in exploratory data analysis to view raw data from a table — e.g., when inspecting a movies database to get column details or fetch relevant attributes.
+## 🔬 Experiments I Tried:
+- Custom column selections (e.g., title + length)
+- Used `ORDER BY`, `WHERE`, `LIMIT` clauses
+- Applied filters to simulate real-world queries
 
-## 🧠 Notes
-- `SELECT column1, column2 FROM table;` is the standard pattern for querying specific data.
-- `SELECT * FROM table;` is useful for quick inspection but not efficient for large datasets.
-- Always specify column names in production for clarity and performance.
+## 💡 Key Insight:
+Simple changes in SELECT clauses can completely change the data shape — it's important to know when to use full selection vs focused querying.
+
+## 🛣️ Ready for Lesson 02: Filtering Data using WHERE
